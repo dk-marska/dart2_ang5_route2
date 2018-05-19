@@ -1,5 +1,5 @@
 import 'package:angular/angular.dart';
-import 'data1_structure.dart';
+import 'package:dart2_ang5_route2/src/data1/data1_structure.dart';
 
 @Component(
   selector: 'data1',

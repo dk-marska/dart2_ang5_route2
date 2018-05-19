@@ -3,7 +3,7 @@ import 'package:angular_router/angular_router.dart';
 import 'route_paths.dart' as paths;
 import 'block1_component.template.dart' as b1;
 import 'block2_component.template.dart' as b2;
-import 'data1_component.template.dart' as d1;
+import 'data1/data1_component.template.dart' as d1;
 
 @Injectable()
 class Routes {
