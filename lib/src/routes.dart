@@ -20,6 +20,7 @@ class Routes {
   static final _data1 = new RouteDefinition(
     routePath: paths.data1,
     component: d1.Data1ComponentNgFactory,
+    useAsDefault: true,
   );
 
   final block1 = _block1;

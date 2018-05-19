@@ -3,9 +3,9 @@ import 'package:angular_router/angular_router.dart';
 import 'package:dart2_ang5_route2/application_component.template.dart' as ng;
 import 'main.template.dart' as self;
 
-const useHashLS = false;
+const useHashLS = true;
 @GenerateInjector(
-  routerProvidersHash, // You can use routerProviders in production
+  routerProvidersHash, // You can use routerProviders in production.
 )
 final InjectorFactory injector = self.injector$Injector;
 

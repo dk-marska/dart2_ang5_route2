@@ -8,8 +8,14 @@ import 'data1_structure.dart';
   directives: [coreDirectives],
   template: '''
     <p>Data1 -> '{{componentName}}'</p>
-    
-    <li *ngFor="let item of componentData">{{item.name}}</li>
+    <table>
+      <div *ngFor="let item of componentData">
+        <tr>
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+        </tr>
+      </div>
+    </table>
   ''',
 )
 class Data1Component {

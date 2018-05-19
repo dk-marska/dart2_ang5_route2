@@ -23,7 +23,7 @@ import 'src/routes.dart';
          routerLinkActive="active-route">Data1</a>
          
       <br><br>   
-      <table border="1"><tr><td><router-outlet [routes]="routes.all"></router-outlet></td></tr></table>      
+      <table><tr><td><router-outlet [routes]="routes.all"></router-outlet></td></tr></table>      
     </nav>    
   ''',
 )
