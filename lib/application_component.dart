@@ -18,7 +18,10 @@ import 'src/routes.dart';
       &nbsp;
       <a [routerLink]="routes.block2.path"
          routerLinkActive="active-route">Block2</a>
-      
+      &nbsp;
+      <a [routerLink]="routes.data1.path"
+         routerLinkActive="active-route">Data1</a>
+         
       <br><br>   
       <table border="1"><tr><td><router-outlet [routes]="routes.all"></router-outlet></td></tr></table>      
     </nav>    
